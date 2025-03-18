@@ -73,6 +73,13 @@ h1 {
 .card-img img {
   max-width: 100%;
 }
+.card-text {
+  border-bottom: 1px solid #efeeee;
+  border-right: 1px solid #efeeee;
+  border-left: 1px solid #efeeee;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
 
 /* FOOTER */
 .background-footer {
