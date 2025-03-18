@@ -9,20 +9,23 @@ a {
   text-decoration: none;
   color: inherit;
 }
+li {
+  list-style-type: none;
+}
 
 /* REGOLE UTILITY*/
 .container {
-  max-width: 768px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
-/* PER VEDERE I CONTAINER */
+/* PER VEDERE I CONTAINER 
 .debug * {
   min-height: 50px;
   padding: 5px;
   background-color: rgba(255, 0, 0, 0.236);
   border: 2px dashed red;
-}
+}*/
 
 /* GRIGLIA DI COLONNE 
 .container {
@@ -50,3 +53,28 @@ a {
 .col-1-2 {
   width: calc(100% / 2);
 }*/
+
+/* HEADER */
+h1 {
+  text-align: center;
+  font-family: "Nerko One", cursive;
+  color: #ff9613;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* MAIN */
+.background-main {
+  background-color: #f6f5f3;
+}
+.card {
+  background-color: white;
+}
+.card-img img {
+  max-width: 100%;
+}
+
+/* FOOTER */
+.background-footer {
+  background-color: #7c69a4;
+}
