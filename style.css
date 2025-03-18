@@ -6,7 +6,6 @@
   font-family: Montserrat, "Helvetica Neue", sans-serif;
 }
 a {
-  text-decoration: none;
   color: inherit;
 }
 li {
@@ -14,11 +13,14 @@ li {
 }
 
 /* REGOLE UTILITY*/
-.container {
+.container-main {
   max-width: 600px;
   margin: 0 auto;
 }
-
+.container-footer {
+  max-width: 520px;
+  margin: 0 auto;
+}
 /* PER VEDERE I CONTAINER 
 .debug * {
   min-height: 50px;
@@ -112,8 +114,19 @@ hr {
   font-size: larger;
   line-height: 2.5rem;
   font-weight: 300;
+  padding-bottom: 2rem;
 }
 /* FOOTER */
 .background-footer {
   background-color: #7c69a4;
+}
+.content-footer {
+  color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+.content-footer a {
+  padding-right: 10px;
+  padding-left: 10px;
 }
