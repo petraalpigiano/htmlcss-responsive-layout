@@ -96,7 +96,23 @@ h1 {
   background-color: white;
   margin-bottom: 1.5rem;
 }
-
+hr {
+  background-color: #f7982e;
+  height: 3px;
+  width: 70px;
+}
+.tiramisu-img {
+  display: inline-block;
+  text-align: center;
+}
+.tiramisu-img img {
+  max-width: 50%;
+}
+.recipe p {
+  font-size: larger;
+  line-height: 2.5rem;
+  font-weight: 300;
+}
 /* FOOTER */
 .background-footer {
   background-color: #7c69a4;
