@@ -95,6 +95,10 @@ h2 > span {
   display: flex;
   justify-content: space-between;
 }
+.icons span {
+  color: black;
+  display: none;
+}
 .social-icons div {
   padding: 13px 20px;
   border: 1px solid #efeeee;
@@ -129,10 +133,10 @@ hr {
   background-color: #7c69a4;
 }
 .content-footer {
+  text-align: center;
   color: white;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  text-align: center;
 }
 .content-footer a {
   padding-right: 10px;
@@ -175,9 +179,16 @@ hr {
     display: block;
     margin-bottom: 2rem;
   }
+  .content-footer {
+    text-align: center;
+  }
 }
 /* DA 992PX IN SU */
 @media screen and (min-width: 993px) {
+  .container-main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   h2 {
     font-size: 2.5rem;
   }
@@ -192,5 +203,18 @@ hr {
   }
   .card {
     display: flex;
+  }
+  .icons span {
+  }
+  .content-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .part1-footer {
+    text-align: start;
+  }
+  .part2-footer {
+    text-align: end;
   }
 }
