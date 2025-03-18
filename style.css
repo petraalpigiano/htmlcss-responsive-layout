@@ -104,6 +104,10 @@ h2 > span {
   background-color: white;
   margin-bottom: 1.5rem;
 }
+.banner img {
+  max-width: 100%;
+  display: none;
+}
 hr {
   background-color: #f7982e;
   height: 3px;
@@ -168,6 +172,10 @@ hr {
   .social-icons div {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+  .banner img {
+    display: block;
+    margin-bottom: 2rem;
   }
 }
 /* DA 992PX IN SU */
