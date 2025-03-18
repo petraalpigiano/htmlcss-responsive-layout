@@ -67,18 +67,34 @@ h1 {
 .background-main {
   background-color: #f6f5f3;
 }
+.content-main > p {
+  padding-top: 1.5rem;
+}
 .card {
   background-color: white;
 }
 .card-img img {
   max-width: 100%;
 }
-.card-text {
+.card {
   border-bottom: 1px solid #efeeee;
   border-right: 1px solid #efeeee;
   border-left: 1px solid #efeeee;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons div {
+  padding: 13px 20px;
+  border: 1px solid #efeeee;
+  border-radius: 25px;
+  background-color: white;
+  margin-bottom: 1.5rem;
 }
 
 /* FOOTER */
