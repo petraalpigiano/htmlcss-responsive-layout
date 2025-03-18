@@ -155,6 +155,16 @@ hr {
   h2 > span {
     display: inline;
   }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .row li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 }
 /* DA 992PX IN SU */
 @media screen and (min-width: 993px) {
