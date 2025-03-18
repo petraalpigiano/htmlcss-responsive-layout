@@ -78,9 +78,6 @@ h2 > span {
 .content-main > p {
   padding-top: 1.5rem;
 }
-.card {
-  background-color: white;
-}
 .card-img img {
   max-width: 100%;
 }
@@ -92,6 +89,7 @@ h2 > span {
   border-bottom-right-radius: 3px;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  background-color: white;
 }
 .social-icons {
   display: flex;
@@ -180,4 +178,19 @@ hr {
 }
 /* DA 992PX IN SU */
 @media screen and (min-width: 993px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+  .row {
+    display: inline;
+  }
+  .row li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .card {
+    display: flex;
+  }
 }
