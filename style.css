@@ -72,6 +72,9 @@ h1 {
 .background-main {
   background-color: #f6f5f3;
 }
+h2 > span {
+  display: none;
+}
 .content-main > p {
   padding-top: 1.5rem;
 }
@@ -141,6 +144,16 @@ hr {
   h1 {
     text-align: left;
     padding-left: 1rem;
+  }
+  .container-main {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h2 > span {
+    display: inline;
   }
 }
 /* DA 992PX IN SU */
