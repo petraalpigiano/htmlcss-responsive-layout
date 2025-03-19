@@ -11,6 +11,10 @@ a {
 li {
   list-style-type: none;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
 
 /* REGOLE UTILITY*/
 .container-main {
@@ -62,7 +66,8 @@ li {
 /* HEADER */
 h1 {
   text-align: center;
-  font-family: "Nerko One", cursive;
+  font-family: "Nerko One";
+  font-size: 2.5rem;
   color: #ff9613;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -78,9 +83,6 @@ h2 > span {
 .content-main > p {
   padding-top: 1.5rem;
 }
-.card-img img {
-  max-width: 100%;
-}
 .card {
   border-bottom: 1px solid #efeeee;
   border-right: 1px solid #efeeee;
@@ -90,6 +92,7 @@ h2 > span {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   background-color: white;
+  box-shadow: 0 0 4px 1px rgb(198, 198, 198);
 }
 .social-icons {
   display: flex;
@@ -107,7 +110,6 @@ h2 > span {
   margin-bottom: 1.5rem;
 }
 .banner img {
-  max-width: 100%;
   display: none;
 }
 hr {
@@ -147,13 +149,15 @@ hr {
 
 /* DA 768PX IN SU */
 @media screen and (min-width: 769px) {
-  h1 {
-    text-align: left;
-    padding-left: 1rem;
-  }
+  /* REGOLE UTILITY*/
   .container-main {
     min-width: 769px;
     width: 100%;
+  }
+
+  h1 {
+    text-align: left;
+    padding-left: 1rem;
   }
   h2 {
     font-size: 2rem;
@@ -186,10 +190,12 @@ hr {
 }
 /* DA 992PX IN SU */
 @media screen and (min-width: 993px) {
+  /* REGOLE UTILITY*/
   .container-main {
     min-width: 993px;
     width: 100%;
   }
+
   h2 {
     font-size: 2.5rem;
   }
